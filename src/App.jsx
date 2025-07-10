@@ -242,7 +242,7 @@ const App = () => {
                 value={formData.country}
                 onChange={handleInputChange}
                 placeholder="Enter your country"
-                className="w-full px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full px-3 py-1 text-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
@@ -256,7 +256,7 @@ const App = () => {
                 value={formData.state}
                 onChange={handleInputChange}
                 placeholder="Enter your state"
-                className="w-full px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full px-3 py-1 text-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
@@ -273,7 +273,7 @@ const App = () => {
                 value={formData.city}
                 onChange={handleInputChange}
                 placeholder="Enter your city"
-                className="w-full px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full px-3 py-1 text-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
@@ -287,7 +287,7 @@ const App = () => {
                 value={formData.education}
                 onChange={handleInputChange}
                 placeholder="Your highest education"
-                className="w-full px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full px-3 py-1 text-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
@@ -302,7 +302,7 @@ const App = () => {
                 name="experienceLevel"
                 value={formData.experienceLevel}
                 onChange={handleInputChange}
-                className="w-full px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full px-3 py-1 text-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               >
                 <option value="">-- Select --</option>
@@ -320,7 +320,7 @@ const App = () => {
                 name="jobCategory"
                 value={formData.jobCategory}
                 onChange={handleInputChange}
-                className="w-full px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full px-3 py-1 text-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               >
                 <option value="">-- Select --</option>
@@ -343,7 +343,7 @@ const App = () => {
               onChange={handleInputChange}
               placeholder="Tell us about yourself in 50 words or less..."
               rows={1}
-              className="w-full px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none"
+              className="w-full px-3 py-1 border text-gray-500 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none"
               required
             />
             <div className="text-right text-sm text-gray-500 mt-1">
@@ -399,8 +399,8 @@ const App = () => {
                   onClick={handleRecordVideo}
                   className={`px-6 py-2 rounded-md font-medium flex items-center gap-2 mx-auto ${
                     isRecording
-                      ? "bg-red-500 text-black hover:bg-red-600"
-                      : "bg-blue-500 text-black hover:bg-blue-600"
+                      ? "bg-red-500 text-white hover:bg-red-600"
+                      : "bg-blue-500 text-white hover:bg-blue-600"
                   }`}
                 >
                   {isRecording ? (
@@ -435,7 +435,7 @@ const App = () => {
             <button
               type="button"
               onClick={handleSubmit}
-              className="w-full bg-gray-400 text-black py-3 px-4 rounded-md font-medium hover:bg-gray-500 transition-colors"
+              className="w-full bg-gray-400 text-white py-3 px-4 rounded-md font-medium hover:bg-gray-500 transition-colors"
             >
               SUBMIT APPLICATION
             </button>
