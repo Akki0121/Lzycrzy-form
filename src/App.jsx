@@ -399,8 +399,8 @@ const App = () => {
                   onClick={handleRecordVideo}
                   className={`px-6 py-2 rounded-md font-medium flex items-center gap-2 mx-auto ${
                     isRecording
-                      ? "bg-red-500 text-white hover:bg-red-600"
-                      : "bg-blue-500 text-white hover:bg-blue-600"
+                      ? "bg-red-500 text-gray-700 hover:bg-red-600"
+                      : "bg-blue-500 text-gray-700 hover:bg-blue-600"
                   }`}
                 >
                   {isRecording ? (
@@ -435,7 +435,7 @@ const App = () => {
             <button
               type="button"
               onClick={handleSubmit}
-              className="w-full bg-gray-400 text-white py-3 px-4 rounded-md font-medium hover:bg-gray-500 transition-colors"
+              className="w-full bg-gray-400 text-gray-700 py-3 px-4 rounded-md font-medium "
             >
               SUBMIT APPLICATION
             </button>
